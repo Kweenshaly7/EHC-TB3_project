@@ -1,14 +1,14 @@
-EHC-TB3 FRONT END DEVELOPMENT PROJECT
+<h1>EHC-TB3 FRONT END DEVELOPMENT PROJECT</h1>
 
-Company Name:
+<h2>Company Name:</h2><br>
 Stadium
 
-Company Description:
+<h2>Company Description:</h2><br>
 We are a company that makes and distributes African soft drinks. Our main product is
 made with fresh ingredients and shipped directly to your home. Our target audience is
 couples. We want to convey a sense of power, while at the same time being business-like.
 
-Job Description:
+<h2>Job Description:</h2><br>
 You must create a website that will mainly show a list of the company's products. The
 goal is to increase sales. Besides the landing page, the website will need a contact
 page, product pages and a privacy policy page. The landing page should have a Our
