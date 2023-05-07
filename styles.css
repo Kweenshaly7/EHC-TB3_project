@@ -1,8 +1,104 @@
 body {
     background-color: #E0E0E2;
-    margin: 0;
+    margin: 0px;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    position: absolute;
 }
 
 .top {
     background-color: #721817;
+    height: 100px;
+    color: #fbfbfb;
+    position: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo > img {
+    /* height: 150px;
+    width: 150px; */
+    border: 2px solid;
+}
+
+.title {
+    margin-left: 10px;
+}
+.title:hover {
+    color: #2e0302;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #721817;
+    background-color: #E0E0E2;
+    padding: 15px;
+    border-radius: 10px;
+}
+a:hover,
+a:active {
+    background-color: #721817;
+    color: #e7e7e7;
+}
+
+.products {
+    height: 500px;
+    background-image: url(black_lady_drinking.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: inherit;
+    width: 100%;
+}
+
+.about {
+    text-align: center;
+    color: #721817;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #721817;
+    height: 255px;
+    padding: 20px 0px;
+}
+
+.star {
+    height: 50px;
+    width: 50px;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E0E0E2;
+    border-radius: 20px;
+    width: 20%;
+    height: 260px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E0E0E2;
+    border-radius: 20px;
+    width: 20%;
+    height: 260px;
+}
+
+.goal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E0E0E2;
+    border-radius: 20px;
+    width: 20%;
+    height: 260px;
+    
 }
