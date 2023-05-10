@@ -207,3 +207,35 @@ span {
 h4, #big, #small {
     margin-left: 20px;
 }
+
+.footer {
+    background-color: #E0E0E2;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.follow {
+    width: 25%;
+}
+
+.faq {
+    width: 25%;
+}
+
+.get.in.touch {
+    width: 25%;
+}
+
+.partner.with.us {
+    width: 25%;
+}
+
+.icons {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 2px;
+    width: 40px;
+  }
