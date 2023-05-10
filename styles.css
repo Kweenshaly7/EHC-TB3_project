@@ -75,7 +75,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #721817;
+    background-color: white;
     height: 360px;
     padding: 20px 0px;
 }
@@ -89,7 +89,8 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    background-color: #E0E0E2;
+    background-color: #721817;
+    color: white;
     border-radius: 20px;
     width: 20%;
     height: 320px;
@@ -100,7 +101,8 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    background-color: #E0E0E2;
+    background-color: #721817;
+    color: white;
     border-radius: 20px;
     width: 20%;
     padding: 10px;
@@ -111,7 +113,8 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    background-color: #E0E0E2;
+    background-color: #721817;
+    color: white;
     border-radius: 20px;
     width: 20%;
     height: 320px;
@@ -160,7 +163,7 @@ h3 {
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column.side, .column.middle {
+    .column.left, .column.right, .column.middle {
       width: 100%;
     }
 }
@@ -209,12 +212,13 @@ h4, #big, #small {
 }
 
 .footer {
-    background-color: #E0E0E2;
+    background-color: #721817;
+    color: white;
     height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 25px;
+    padding: 30px;
 }
 
 .follow {
